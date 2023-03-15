@@ -31,7 +31,7 @@ export class ContextCarrier extends CarrierItem {
     public clientAddress?: string,
     public items: CarrierItem[] = [],
   ) {
-    super('sw8');
+    super('qxwz-sw8');
     this.items.push(this);
   }
 
@@ -88,7 +88,7 @@ export class ContextCarrier extends CarrierItem {
   }
 
   public static from(map: { [key: string]: string }): ContextCarrier | undefined {
-    if (!Object.prototype.hasOwnProperty.call(map, 'sw8')) return;
+    if (!Object.prototype.hasOwnProperty.call(map, 'qxwz-sw8')) return;
 
     const carrier = new ContextCarrier();
 

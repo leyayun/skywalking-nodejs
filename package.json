@@ -1,6 +1,6 @@
 {
-  "name": "skywalking-backend-js",
-  "version": "0.6.0",
+  "name": "@qxwz/skywalking-backend-js",
+  "version": "0.6.1",
   "description": "The NodeJS agent for Apache SkyWalking",
   "homepage": "skywalking.apache.org",
   "main": "lib/index.js",
